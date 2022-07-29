@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #636c79;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    height: 80px;
+}
+
+nav img{
+    width: 90px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 25%;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav button{
+    background-color: transparent;
+    padding: 5px 25px;
+    text-transform: capitalize;
+    border: 1px solid white;
+    color: white;
+    margin-left: 10%;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    margin-left: 10%;
+}
+
+.container-left img{
+    width: 900px;
+    height: 450px;
+}
+
+.container-right{
+    padding-left: 10%;
+}
+
+.container-right h1{
+    font-size: 2.8rem;
+    color: white;
+}
+.container-right p{
+    color: #d5d7da;
+    font-size: 15px;
+    padding: 5% 0;
+    padding-right: 5%;
+}
+.search-area{
+    background-color: white;
+    height: 50px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-area input{
+    border: none;
+    margin: 0 10px;
+}
+
+.search-area button{
+    background-color: #8bb7a2;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border: none;
+    margin-left: 50px;
+}
+
+/* moto line and records design */
+.moto-line{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.record-display{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.record-display p{
+    color: #474747;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.record-display div{
+    margin: 5% 0;
+}
+
+/* second banner image design */
+.second-banner{
+    margin: 0 10%;
+    width: 900px;
+    height: 450px;
+}
+
+.moto-line2{
+    margin-top: 13%;
+    text-align: center;
+}
+
+.qualities{
+    margin: 40px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quality-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.qualities-text{
+    width: 500px;
+}
+
+.qualities-text h1{
+    text-transform: capitalize;
+}
+
+.qualities-text p{
+    color: #66686a;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px 0;
+    width: 400px;
+}
+
+.lets-talk-button{
+    background-color: #8bb7a2;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border: none;
+    margin: 15px 0;
+}
+
+.qualities-image img{
+    width: 400px;
+    height: 400px;
+}
+
+.qualities div:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.qualities div:nth-child(2) div:first-child{
+    padding-left: 10%;
+}
+
+/* team section design */
+.team-section{
+    margin: 30px 10%;
+}
+
+.team-text{
+    display: flex;
+    margin: 50px 0;
+}
+
+.team-text p{
+    color: #66686a;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 17%;
+    line-height: 25px;
+}
+
+.team-members{
+    display: flex;
+}
+
+.team-members div:nth-child(2){
+    margin: 0 40px;
+}
+
+.member h4{
+    margin: 15px 0;
+}
+
+.member p{
+    color: #66686a;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.member img{
+    height: 350px;
+    width: 400px;
+}
+
+.see-more{
+    position: relative;
+    left: 380px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* footer section design */
+footer{
+    background-color: #10181d;
+    color: white;
+    padding: 0 10%;
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+
+.footer-top img{
+    height: 30px;
+    width: 90px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social li{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #282f34;
+    margin: 0 8px;
+}
+
+.social li i{
+    position: relative;
+    top: 7px;
+    left: 12px;
+    font-size: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 0.1px;
+    background-color: white;
+}
+
+.footer-bottom{
+    margin: 50px 0;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mylist li{
+    font-size: 12px;
+    color: #7f8386;
+    margin: 15px 0;
+}

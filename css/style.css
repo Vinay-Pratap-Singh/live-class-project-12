@@ -292,3 +292,207 @@ footer{
     color: #7f8386;
     margin: 15px 0;
 }
+
+
+/* Adding responsiveness to the webpage */
+@media only screen and (max-width: 600px) {
+    header{
+        height: auto;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    nav img{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    nav ul{
+        justify-content: space-between;
+        margin: 10px 0;
+        margin-left: 10px;
+    }
+    
+    nav ul li{
+        margin: 0;
+        margin-right: 10px;
+    }
+    
+    nav button{
+        padding: 5px 10px;
+        margin: 0;
+    }
+    
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .container-left img{
+        width: auto;
+    }
+    
+    .container-right{
+        padding-left: 0;
+    }
+    
+    .container-right h1{
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+
+    .container-right p{
+        padding: 0;
+        margin: 10px 25px;
+    }
+    .search-area{
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 15px;
+    }
+    
+    .search-area button{
+        padding: 10px;
+        margin: 0;
+        height: 100%;
+    }
+    
+    .record-display{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .second-banner{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        height: 350px;
+
+    }
+    
+    .moto-line2{
+        margin-top: 25px;
+    }
+
+    .qualities{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        margin-top: 25px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .qualities div:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    
+    .qualities div:nth-child(2) div:first-child{
+        padding: 0;
+    }
+    
+    .quality-box{
+        flex-direction: column-reverse;
+        margin: 0;
+
+    }
+    
+    .qualities-text{
+        width: 100%;
+    }
+    
+    .qualities-text h1{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .qualities-text p{
+        margin: 10px 0;
+        width: 100%;
+    }
+    
+    .qualities-image img{
+        width: 400px;
+        height: 350px;
+    }
+
+    .team-section{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team-text{
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .team-text p{
+        margin: 0;
+        margin: 10px 0;
+        line-height: 20px;
+    }
+    
+    .team-members{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .team-members div:nth-child(2){
+        margin: 0;
+    }
+    
+    .member h4{
+        margin: 10px 0;
+    }
+    
+    .member p{
+        margin-bottom: 10px;
+    }
+    
+    .member img{
+        height: 350px;
+        width: 100%;
+    }
+    
+    .see-more{
+        position: static;
+        margin: 0;
+    }
+
+
+
+    footer{
+        padding: 0 20px;
+    }
+    
+    .social{
+        justify-content: space-between;
+    }
+    
+    .social li{
+        margin: 0 5px;
+    }
+    
+    .footer-bottom{
+        margin: 20px 0;
+        flex-wrap: wrap;
+        gap: 25px;
+    }  
+
+}
